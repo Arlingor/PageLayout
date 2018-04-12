@@ -1,0 +1,129 @@
+
+@font-face {
+    font-family: TenBetFont;
+    src: url(../HelveticaInseratLT.ttf);
+}
+
+.wrapper {
+    max-width: 1280px;
+    min-width: 800px;
+    width: 100%;
+    margin: 0px;
+    /*border: 1px solid black;*/
+    height: 820px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.header {
+    width: 100%;
+    /*border: 1px solid black;*/
+    height: 105px;
+    background-color: #cccccc;
+
+}
+
+.navbar {
+    display: inline-block;
+    padding-left: 10px;
+    position: relative;
+    top: 80px;
+    float: left;
+}
+.lenguges{
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    float: right;
+    padding-right: 10px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav {
+    background-color: #666666;
+    color: #d9d9d9;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 1px;
+    /*border: 1px solid black;*/
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.nav:hover {
+    background-color: #000000;
+}
+
+.page{
+    display:inline-block;
+    margin-top: 10px;
+    width: 70%;
+    height: 710px;
+    /*border: 1px solid black;*/
+    float: left;
+    background-color: #cccccc;
+    
+}
+.content{
+ margin:10px;
+ height: 687px;
+ background-color: #515151;
+ /*border: 1px solid black;*/
+}
+.title{
+    color: #ffffff;
+    font-family: "TenBetFont";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 18px;
+    position: relative;
+    
+}
+.textitle{
+    margin: 35px;
+    float: left;
+}
+.underline{
+    height: 90px;
+    width: 95%;
+    border-bottom: 1px solid black;
+    box-shadow: 0 2px 1px -2px;
+}
+.sidebar{
+    display: inline-block;
+    margin-top: 10px;
+    width: 29.6%;
+    height: 710px;
+    /*border: 1px solid black;*/
+    float: right;
+    background-color: #a3a3a3
+}
+
+.footer{
+    max-width: 1280px;
+    min-width: 800px;
+    width: 100%;
+    margin: 0px;
+    /*border: 1px solid black;*/
+    height: 43px;
+}
