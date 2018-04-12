@@ -3,24 +3,39 @@
     font-family: TenBetFont;
     src: url(../HelveticaInseratLT.ttf);
 }
+p{
+    margin:10px;
+    text-indent: 50px;
+    text-align: justify;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 
+}
+li {
+    display: inline;
+}
+.sidemenu{
+    margin-top:10px;
+}
+.click{
+    display: block;
+    width: 89%;
+    background-color: #000000;
+    color: white;
+    margin: 2px;
+    padding: 10px;
+}
 .wrapper {
     max-width: 1280px;
     min-width: 800px;
     width: 100%;
     margin: 0px;
     /*border: 1px solid black;*/
-    height: 820px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
+    height: auto;
 }
 
 .header {
@@ -44,13 +59,6 @@ li {
     top: 80px;
     float: right;
     padding-right: 10px
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 .nav {
@@ -78,7 +86,7 @@ ul {
     display:inline-block;
     margin-top: 10px;
     width: 70%;
-    height: 710px;
+    height: auto;
     /*border: 1px solid black;*/
     float: left;
     background-color: #cccccc;
@@ -86,7 +94,7 @@ ul {
 }
 .content{
  margin:10px;
- height: 687px;
+ height: auto;
  background-color: #515151;
  /*border: 1px solid black;*/
 }
@@ -103,6 +111,11 @@ ul {
     margin: 35px;
     float: left;
 }
+.text{
+    margin:10px;
+    color:#ffffff;
+    padding-bottom: 0.5em;
+}
 .underline{
     height: 90px;
     width: 95%;
@@ -113,17 +126,26 @@ ul {
     display: inline-block;
     margin-top: 10px;
     width: 29.6%;
-    height: 710px;
-    /*border: 1px solid black;*/
+    height: 110vh;
+   /*border: 1px solid black;*/
     float: right;
     background-color: #a3a3a3
 }
 
+.tableform{
+    width: 98%;
+    height: 164px;
+    background-color: #282828;
+    margin-bottom: 10px;
+}
 .footer{
     max-width: 1280px;
     min-width: 800px;
     width: 100%;
     margin: 0px;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     height: 43px;
+    position:relative;
+    bottom: 700px;
+    background-color: #cccccc;
 }
