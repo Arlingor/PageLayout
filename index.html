@@ -23,15 +23,15 @@
                         <li class="nav">Home</li>
                         <li class="nav">Sports</li>
                         <li class="nav">Casino</li>
-                        <li onclick="drop()" class="nav">Games
-                            <ul id="dropdownmenu">
-                                <li id="drop">Home</li>
-                                <li id="drop">Name</li>
-                                <li id="drop">New</li>
-                                <li id="drop">Old</li>
+                        <li onclick="navdrop()" class="nav">Games
+                            <span id="pic" ></span>
+                            <ul id="myDropdown" class="dropdownmenu">
+                                <li id="drop">Mega Moolah</li>
+                                <li id="drop">The curse of the black
+                                        Pearl</li>
+                                <li id="drop">Super slots attack</li>
                             </ul>
                         </li>
-
                     </ul>
                 </div>
 
@@ -110,27 +110,17 @@
             <!-- sidebar start here -->
             <div class="sidebar">
                 <div class="sidebackground">
-                    <ul class="sidemenu">
-                        <li onclick="open()" class="click">Click to
-                            <id="open">
-                                </span>
-                                <div>
-                                    <p>Lorem Ipsum Dolar sum....</p>
-                                </div>
-                        </li>
-                        <li onclick="open()" class="click">Click to
-                            <span id="open"></span>
-                            <div>
-                                <p>Lorem Ipsum Dolar sum....</p>
-                            </div>
-                        </li>
-                        <li onclick="open()" class="click">Click to
-                            <span id="open"></span>
-                            <div>
-                                <p>Lorem Ipsum Dolar sum....</p>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="sidemenu">
+                        <div onclick="drop1()"  id="click">Click to<span><img src="./images/arrow.png" alt="arrow" id="pic"></span>
+                                <p id="drop1" class="textdrop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...</p>
+                        </div>
+                        <div onclick="drop2()"  id="click">Click to<span><img src="./images/arrow.png" alt="arrow" id="pic"></span>
+                                <p id="drop2" class="textdrop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...</p>
+                        </div>
+                        <div onclick="drop3()"  id="click">Click to<span><img src="./images/arrow.png" alt="arrow" id="pic"></span>
+                                <p id="drop3" class="textdrop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- sidebar end here -->

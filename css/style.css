@@ -25,6 +25,8 @@ li {
     display:none;
     background-color:#000000;
 }
+
+
 .l-o-g {
     /* width: 18px;
     height: 90px; */
@@ -51,7 +53,7 @@ li {
     margin: 10px;
 }
 
-.click {
+#click {
     display: block;
     background-color: #000000;
     color: white;
@@ -201,13 +203,35 @@ li {
 }
 
 #drop{
-    margin:3px;
+    margin: 3px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    font-weight: 100;
+    padding: 3px;
+    border-bottom: 1px solid white;
+    text-align: -webkit-left;
 }
-#dropdownmenu{
+.dropdownmenu{
     display: none;
     background-color: black;
     position: absolute;
-    padding-left: 40px;
-    padding-right: 42px;
     margin-top: 5px;
+    width: 42%;
+    right: -56px;
+    z-index: 1;
+    
+}
+.show{
+    display: block !important;
+}
+.textdrop{
+    display: none;
+    text-indent: 0px;
+}
+#pic{
+    width: 4px;
+    background: url('./images/arrow.png');
+    position: relative;
+    left: 7px;
 }
