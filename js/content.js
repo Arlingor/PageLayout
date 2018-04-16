@@ -1,9 +1,4 @@
-
-
 // Dropdown Functions
-function navdrop() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 function drop1() {
         document.getElementById("drop1").classList.toggle("show");
 }
