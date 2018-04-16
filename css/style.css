@@ -247,6 +247,9 @@ li {
     display: none;
     text-indent: 0px;
 }
+.noborder{
+    border-bottom: 0px solid white;
+}
 #pic{
     width: 4px;
     background: url('./images/arrow.png');
