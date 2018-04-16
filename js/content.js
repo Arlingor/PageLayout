@@ -6,7 +6,6 @@ var sprite = document.getElementById("img1");
 var sprite2 = document.getElementById("img2");
 var sprite3 = document.getElementById("img3");
  
-
 function movearrow(drp,spr){
     if(!drp.classList.contains("show")){
         spr.src = "./images/arrow.png";
@@ -43,3 +42,7 @@ window.onclick = function(e) {
          }
     }
   }
+
+  //-------AJAX--------------
+  
+  
