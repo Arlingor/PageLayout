@@ -184,7 +184,6 @@ li {
 
 .footerlist {
     display: inline-block;
-    font-size: 17.5px;
     padding: 10px;
     float: right;
     word-spacing: 3px;
@@ -252,7 +251,7 @@ li {
 }
 #pic{
     width: 4px;
-    background: url('./images/arrow.png');
+    background: url('../images/arrow.png');
     position: relative;
     left: 7px;
 }
