@@ -18,7 +18,7 @@
             <div class="header">
                 <div class="navbar">
                     <ul>
-                        <li class="nav">Home
+                        <li onclick="dropdownmenu()" id="drp" class="nav">Home
                             <ul id="myDropdown" class="dropdownmenu h">
                                 <li id="drop">Mega Moolah</li>
                                 <li id="drop">The curse of the black Pearl
@@ -27,24 +27,24 @@
                             </ul>
                         </li>
 
-                        <li class="nav">Sports
-                            <ul id="myDropdown" class="dropdownmenu s">
+                        <li onclick="dropdownmenu1()" id="drp1" class="nav">Sports
+                            <ul id="myDropdown1" class="dropdownmenu s">
                                 <li id="drop">Mega Moolah</li>
                                 <li id="drop">The curse of the black Pearl
                                 </li>
                                 <li id="drop noborder">Super slots attack</li>
                             </ul>
                         </li>
-                        <li class="nav">Casino
-                            <ul id="myDropdown" class="dropdownmenu c">
+                        <li onclick="dropdownmenu2()" id="drp2" class="nav">Casino
+                            <ul id="myDropdown2" class="dropdownmenu c">
                                 <li id="drop">Mega Moolah</li>
                                 <li id="drop">The curse of the black Pearl
                                 </li>
                                 <li id="drop noborder">Super slots attack</li>
                             </ul>
                         </li>
-                        <li class="nav">Games
-                            <ul id="myDropdown" class="dropdownmenu">
+                        <li onclick="dropdownmenu3()" id="drp3" class="nav">Games
+                            <ul id="myDropdown3" class="dropdownmenu">
                                 <li id="drop">Mega Moolah</li>
                                 <li id="drop">The curse of the black Pearl
                                 </li>
@@ -55,15 +55,17 @@
                 </div>
 
                 <div class="lenguges">
-                    <ul>
-                        <li class="lng">
-                            <img src="./images/en.jpg" alt="">
+                    <ul id="mylist">
+                        <li>
+                            <img class="lng" src="./images/en.jpg" alt="">
                         </li>
-                        <li class="lng">
-                            <img src="./images/ru.jpg" alt="">
+
+                        <li>
+                            <img class="lng" src="./images/ru.jpg" alt="">
                         </li>
-                        <li class="lng">
-                            <img src="./images/ge.jpg" alt="">
+
+                        <li>
+                            <img class="lng" src="./images/ge.jpg" alt="">
                         </li>
                     </ul>
                 </div>
@@ -126,19 +128,19 @@
             <!-- sidebar start here -->
             <div class="sidebar">
                     <div class="sidemenu">
-                        <div onclick="drop1()" id="click">Click to
+                        <div onclick="dropside1()" id="click">Click to
                             <span><img id="img1" src="./images/arrow.png" alt=""></span>
                             <p id="drop1" class="textdrop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                                 the indus book. desktop publishing software like Aldus PageMaker including versions of Lorem
                                 ageMaker including versions of Lorem Ipsum...</p>
                         </div>
-                        <div onclick="drop2()" id="click">Click to
+                        <div onclick="dropside2()" id="click">Click to
                                 <span><img id="img2" src="./images/arrow.png" alt=""></span>
                                 <p id="drop2" class="textdrop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                                 the indus book. desktop publishing software like Aldus PageMaker including versions of Lorem
                                 ageMaker including versions of Lorem Ipsum...</p>
                         </div>
-                        <div onclick="drop3()" id="click">Click to
+                        <div onclick="dropside3()" id="click">Click to
                             <span><img id="img3" src="./images/arrow.png" alt=""></span>
                             <p id="drop3" class="textdrop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                                 the indus book. desktop publishing software like Aldus PageMaker including versions of Lorem

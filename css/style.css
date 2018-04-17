@@ -41,10 +41,10 @@ li {
     text-transform: uppercase;
     letter-spacing: -6.17px;
     background-color: #910000;
-    -webkit-text-orientation: upright;
+    text-orientation: upright;
     text-indent: 0px;
     padding: 3px;
-    z-index: 1px;
+    z-index: 1;
     writing-mode: vertical-rl;
 }
 .sidemenu {
@@ -97,7 +97,12 @@ li {
 .lng:hover{
     opacity: 0.1;
 }
+.lng:active{
+    opacity: 0.1;
+}
+/* Flag Animation */
 
+/* -------------- */
 .nav {
     background-color: #666666;
     color: #d9d9d9;
@@ -115,13 +120,10 @@ li {
     line-height: 18px;
 }
 
-.nav:hover{
-    background-color: #000000;
+.b{
+    background-color: #000000 !important;
 }
-.nav:hover .dropdownmenu{
-    background-color: #000000;
-    display:block;
-}
+
 .page {
     display: table-cell;
     margin-top: 10px;

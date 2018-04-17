@@ -1,5 +1,3 @@
-
-
 /*
 	#HTML/CSS/JS TEST SPECIFICATION AND REQUIREMENTS
 
@@ -28,7 +26,7 @@
 
 	##Language menu
 	- hover makes flag opaque
-	- selected flag is opaque
+	-* selected flag is opaque
 
 	##Misc
 	- font sizes and box sizes may be in %, px or em
